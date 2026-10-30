@@ -1,0 +1,16 @@
+{
+  "name": "ai-document-summarizer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upload a PDF, DOCX, or TXT document and summarize it with Amazon Bedrock.",
+  "scripts": {
+    "install:backend": "npm install --prefix backend",
+    "install:frontend": "npm install --prefix frontend",
+    "install:node": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "test:frontend": "npm test --prefix frontend",
+    "test:node": "npm run test:backend && npm run test:frontend"
+  }
+}

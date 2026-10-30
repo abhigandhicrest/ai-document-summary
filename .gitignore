@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Uploads and generated files
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.log
+*.tmp
+tmp/
+temp/
+
+# Test and OS artifacts
+coverage/
+.DS_Store
+Thumbs.db
